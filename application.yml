@@ -3,12 +3,24 @@ spring:
     active: 
     - dev
 ---
+server: 
+  port: 9091
 spring: 
   profiles: dev
   application: 
     name: cloud-config-dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8761.com:8761/eureka/
 ---
+server: 
+  port: 9092
 spring: 
   profiles: test
   application: 
     name: cloud-config-test
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8761.com:8761/eureka/
