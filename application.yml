@@ -15,7 +15,7 @@ eureka:
       defaultZone: http://eureka8761.com:8761/eureka/
 ---
 server: 
-  port: 9092
+  port: 9093
 spring: 
   profiles: test
   application: 
