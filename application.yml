@@ -1,4 +1,3 @@
-test: test
 profile: test
 spring:
   application:
