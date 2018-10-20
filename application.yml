@@ -8,6 +8,6 @@ zuul:
         path: /bd
         url: http://www.baidu.com
      route3: 
-        path: /app/**
-        serviceId: CONFIG-SERVER
+        path: /jd
+        serviceId: http://www.jd.com
 
