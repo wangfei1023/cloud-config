@@ -7,4 +7,9 @@ zuul:
      route2: 
         path: /bd
         url: www.baidu.com
+     route3: 
+        path: /app/**
+        serviceId: CONFIG-SERVER
+
+
 
