@@ -3,13 +3,11 @@ zuul:
   routes: 
      route1: 
         path: /163
-        uri: www.163.com
+        uri: http://www.163.com
      route2: 
         path: /bd
-        url: www.baidu.com
+        url: http://www.baidu.com
      route3: 
         path: /app/**
         serviceId: CONFIG-SERVER
-
-
 
