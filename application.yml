@@ -3,7 +3,7 @@ zuul:
   routes: 
      route1: 
         path: /163
-        uri: http://www.163.com
+        url: http://www.163.com
      route2: 
         path: /bd
         url: http://www.baidu.com
