@@ -2,9 +2,9 @@ profile: test
 zuul: 
   routes: 
      route1: 
-        path: 163
+        path: /163
         uri: www.163.com
      route2: 
-        path: bd
-        uri: www.baidu.com
+        path: /bd
+        url: www.baidu.com
 
